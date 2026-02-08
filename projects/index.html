@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jaswinder Kang — Portfolio</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="/">Jaswinder Kang</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        Menu
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/">Home</a></li>
+
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">
+            Work <span aria-hidden="true">▾</span>
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/careers/">Careers</a></li>
+          </ul>
+        </li>
+
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hi, I’m Jaswinder (Jassi) Kang.</h1>
+      <p class="lead">
+        Final-year BSc Mathematics student building quantitative projects in risk, modelling, and data science.
+      </p>
+
+      <div class="cta-row">
+        <a class="button" href="/projects/">See projects</a>
+        <a class="button button-secondary" href="/careers/">Careers & CV</a>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Projects</h2>
+        <p>Python + maths projects (modelling, optimisation, forecasting), with write-ups and code.</p>
+        <a href="/projects/">Browse projects →</a>
+      </article>
+
+      <article class="card">
+        <h2>Careers</h2>
+        <p>CV, conferences, applications, and what I’m currently learning.</p>
+        <a href="/careers/">See career page →</a>
+      </article>
+
+      <article class="card">
+        <h2>About</h2>
+        <p>A short bio, interests (triathlon/climbing/paragliding), and what I’m aiming for.</p>
+        <a href="/about/">Read more →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jaswinder Kang</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/nav.js"></script>
+</body>
+</html>
